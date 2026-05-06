@@ -50,3 +50,10 @@ button:hover {
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
 }
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}

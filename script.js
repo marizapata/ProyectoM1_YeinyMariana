@@ -4,6 +4,8 @@ const paletteContainer = document.getElementById("paletteContainer");
 
 const paletteSize = document.getElementById("paletteSize");
 
+const message = document.getElementById("message");
+
 
 
 // Escuchar el click del botón
@@ -64,6 +66,15 @@ function generatePalette() {
     paletteContainer.appendChild(colorBox);
 
   }
+    // Mostrar mensaje
+  message.textContent = "Paleta generada correctamente ✅";
+
+  // Borrar mensaje después de 3 segundos
+  setTimeout(() => {
+
+    message.textContent = "";
+
+  }, 3000);
 
 }
 
