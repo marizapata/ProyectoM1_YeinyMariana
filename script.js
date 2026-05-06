@@ -54,12 +54,11 @@ function generatePalette() {
 
 
     // Mostrar código HEX
-    colorBox.innerHTML = `
+   colorBox.innerHTML = `
 
-      <p>${randomColor}</p>
+  <p class="colorCode">${randomColor}</p>
 
-    `;
-
+`;
 
 
     // Agregar caja al contenedor
