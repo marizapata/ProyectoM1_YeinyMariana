@@ -4,6 +4,8 @@ const paletteContainer = document.getElementById("paletteContainer");
 
 const paletteSize = document.getElementById("paletteSize");
 
+const colorFormat = document.getElementById("colorFormat");
+
 const message = document.getElementById("message");
 
 
@@ -25,11 +27,24 @@ function generatePalette() {
   const totalColors = paletteSize.value;
 
 
+  // Guarda: HEX o HSL según lo que el usuario elija
+  const selectedFormat = colorFormat.value;
+
 
   // Crear colores
   for (let i = 0; i < totalColors; i++) {
 
-    const randomColor = generateRandomColor();
+   let randomColor;
+
+if (selectedFormat === "HEX") {
+
+  randomColor = generateRandomColor();
+
+} else {
+
+  randomColor = generateRandomHSL();
+
+}
 
 
 
@@ -99,5 +114,22 @@ function generateRandomColor() {
 
 
   return color;
+
+}
+
+// Generar color HSL aleatorio
+function generateRandomHSL() {
+
+  // Generar tono entre 0 y 360
+  const hue = Math.floor(Math.random() * 360);
+
+  // Generar saturación entre 0% y 100%
+  const saturation = Math.floor(Math.random() * 100);
+
+  // Generar iluminación entre 0% y 100%
+  const lightness = Math.floor(Math.random() * 100);
+
+  // Retornar color en formato HSL
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
 }
