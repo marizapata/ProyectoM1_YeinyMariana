@@ -23,11 +23,17 @@ Proyecto Integrador - Módulo 1 Full Stack | Soy Henry
 - GitHub
 - GitHub Pages
 
+## Decisiones técnicas
+
+- Se utilizó JavaScript para generar colores aleatorios dinámicamente.
+- Se trabajó con manipulación del DOM para renderizar las paletas.
+- Se utilizó CSS Grid para organizar los colores de forma responsive.
+- Se implementó microfeedback visual para mejorar la experiencia del usuario.
+- El proyecto fue desplegado utilizando GitHub Pages.
 
 ## Deploy del proyecto
 
-https://marizapata.github.io/ProyectoM1_YeinyMariana/
-
+[Ver aplicación](https://marizapata.github.io/ProyectoM1_YeinyMariana/)
 
 ## Estructura del proyecto
 
@@ -46,6 +52,14 @@ ProyectoM1_YeinyMariana
 1. Clonar el repositorio
 2. Abrir la carpeta en Visual Studio Code
 3. Ejecutar el archivo `index.html` en el navegador
+
+## Despliegue en GitHub Pages
+
+1. Subir el proyecto al repositorio de GitHub.
+2. Ingresar a Settings > Pages.
+3. Seleccionar la rama principal.
+4. Guardar la configuración.
+5. Esperar la generación del enlace público.
 
 
 ## Autor
