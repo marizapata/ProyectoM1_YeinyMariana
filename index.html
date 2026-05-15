@@ -21,39 +21,41 @@
 
     <section class="controls">
 
-      <label for="paletteSize">
-        Cantidad de colores:
-      </label>
+  <div class="top-controls">
 
-      <select id="paletteSize">
+    <label for="paletteSize">
+      Cantidad de colores:
+    </label>
 
-        <option value="6">6 colores</option>
+    <select id="paletteSize">
 
-        <option value="8">8 colores</option>
+      <option value="6">6 colores</option>
+      <option value="8">8 colores</option>
+      <option value="9">9 colores</option>
 
-        <option value="9">9 colores</option>
+    </select>
 
-      </select>
+    <label for="colorFormat">
+      Formato:
+    </label>
 
-      <label for="colorFormat">
-  Formato:
-</label>
+    <select id="colorFormat">
 
-<select id="colorFormat">
+      <option value="HEX">HEX</option>
+      <option value="HSL">HSL</option>
 
-  <option value="HEX">HEX</option>
+    </select>
 
-  <option value="HSL">HSL</option>
+    <button id="generateBtn">
+      Generar paleta
+    </button>
 
-</select>
+  </div>
 
-<button id="generateBtn">
-  Generar paleta
-</button>
+  <div id="message"></div>
 
 </section>
 
-<div id="message" class="message"></div>
 
 <section id="paletteContainer">
 

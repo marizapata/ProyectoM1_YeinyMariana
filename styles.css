@@ -20,12 +20,16 @@ header h1 {
   margin-bottom: 10px;
 }
 
-.controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 40px;
+.controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-controls{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 select,
@@ -52,10 +56,10 @@ button:hover {
 }
 
 #message {
-  text-align: center;
-  margin-top: 20px;
-  font-weight: bold;
-  color: green;
+   margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
 }
 
 .colorCode {
