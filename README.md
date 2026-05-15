@@ -7,10 +7,10 @@ Proyecto Integrador - Módulo 1 Full Stack | Soy Henry
 
 ## Funcionalidades
 
-- Generación aleatoria de colores HEX
-- Selección de cantidad de colores
-- Render dinámico de paletas
-- Microfeedback visual
+- Generación aleatoria de paletas en formato HEX y HSL
+- Selección dinámica de cantidad de colores
+- Renderizado dinámico de paletas
+- Microfeedback visual al generar paletas
 - Accesibilidad básica
 
 
